@@ -29,13 +29,16 @@ You can install these dependencies using pip:
 pip install PyMuPDF PyPDF2 nltk transformers torch streamlit
 ```
 
+Then, install the squad training dataset through this github repo, directly in the same folder where you clone this repo
+https://github.com/rajpurkar/SQuAD-explorer/blob/master/dataset/train-v1.1.json
+
 ## Setup
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/pdf-question-answering-chatbot.git
-   cd pdf-question-answering-chatbot
+   git clone https://github.com/GargRaghav17/PDF_AnsweringAI.git
+   cd PDF_AnsweringAI
    ```
 
 2. **Download NLTK resources:**
@@ -64,7 +67,7 @@ pip install PyMuPDF PyPDF2 nltk transformers torch streamlit
 
 2. **Upload a PDF:**
 
-   Open your browser and go to `http://localhost:8501`. You will see an interface where you can upload a PDF file.
+   Your browser will open and you will see an interface where you can upload a PDF file.
 
 3. **Ask a question:**
 
